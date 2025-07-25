@@ -1,0 +1,12 @@
+{
+  "name": "php-mvc-tailwind",
+  "version": "1.0.0",
+  "description": "PHP MVC framework with Tailwind CSS",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/input.css -o ./public/css/style.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./public/css/style.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+} 
